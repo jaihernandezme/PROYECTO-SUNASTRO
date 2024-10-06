@@ -1,13 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>EXOPLANETAS</title>
-		<style>
-			body { margin: 0; }
-		</style>
-	</head>
-	<body>
-		<script type="module" src="/main.js"></script>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+
+            justify-content: center; /* Centers content horizontally */
+        }
+
+        .container {
+
+            padding: 20px;
+			color:white;
+			background-color:black;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: left;
+        }
+		h4{
+            font-size: 2em;
+            text-align: left;
+			max-width: 1000px;
+        }
+
+        p {
+ /* Adds space between the h1 and p */
+            max-width: 100%; /* Limits the width to make a "column" */
+            text-align: left;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+	<script type="module" src="/main.js"></script>
+	<div id="info-box" style="font-family:'Courier New'; position:fixed; background-color: rgba(0, 0, 0, 0.7); color: white; padding: 10px; display: none;">
+	</div>
+    <div class="container">
+        <h1>2024 NASA Space Apps Challenge</h1>
+		<h4>Navigator for the Habitable Worlds Observatory (HWO): Mapping the Characterizable Exoplanets in our Galaxy</h4>
+        <p>
+            To observe the possible habitable exoplanets that can be seen and characterized by the HWO, hover over the telescope slider on the top 
+			right corner of your screen and change the possible diameter of the lens to be used. To get more information about each exoplanet or star,
+			hover with your mouse over it and see the details come to life! The small green dot in the middle is planet Earth and all of the exoplanets are
+			referenced to it. Enjoy your space endeavour!
+        </p>
+    </div>
+</body>
 </html>
